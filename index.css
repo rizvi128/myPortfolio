@@ -134,3 +134,54 @@ section .skill{
 .skill-container{
     margin-top: 35px;
 }
+/* resume  */
+.resume-container{
+    display:flex ;
+    gap: 30px;
+}
+.resumeTitle{
+    font-size: 37px;
+    font-weight: 700;
+   color:rgba(71, 71, 71, 1)
+}
+
+
+.edu-ex{
+    font-size: 30px;
+    font-weight: 700;
+   color:rgba(71, 71, 71, 1)
+}
+.sub-title{
+    font-size: 25px;
+    font-weight: 700;
+   color:rgba(71, 71, 71, 1)
+}
+
+
+
+.institution{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(71, 71, 71, 1);
+}
+.socialForm{
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 40px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+input{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border:none;
+}
+#message{
+    height: 200px;
+   
+}
